@@ -369,6 +369,9 @@ body {
     &__text {
         margin: 10px;
         text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
 
@@ -457,8 +460,8 @@ body {
     // #container {
     //     height: 100vh;
     // }
-    #container {
-        height: 100vh;
+    html, body, #container {
+        height: 100%;
     }
 
     .header {
@@ -603,6 +606,12 @@ body {
         &_img {
             width: 5vh;
             height: 5vh;
+        }
+    }
+
+    .footer {
+        &__text {
+            flex-direction: column;
         }
     }
 }

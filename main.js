@@ -621,8 +621,14 @@
     const footer = document.createElement('footer');
     footer.classList = 'footer';
     const textFooter = document.createElement('div');
-    textFooter.textContent = 'Рада познакомиться! © E. Добрянская, 2019';
     textFooter.classList = 'footer__text';
+    const footerMsg = document.createElement('div');
+    footerMsg.textContent = 'Рада познакомиться!';
+    const footerCpr = document.createElement('div');
+    footerCpr.textContent = '© E. Добрянская, 2019';
+    footerCpr.style = 'margin-left: 8px;';
+    textFooter.appendChild(footerMsg);
+    textFooter.appendChild(footerCpr);
     footer.appendChild(textFooter);
 
     container.appendChild(header);
