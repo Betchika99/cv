@@ -6,7 +6,7 @@
   src: url("fonts/Neucha.ttf"); }
 body {
   background: #333333 100%;
-  font-family: SanFrancisco;
+  font-family: Helvetica;
   color: white;
   font-size: 14px;
   cursor: default;
@@ -86,7 +86,7 @@ body {
 .connect__buttons, .follow__buttons {
   list-style: none;
   margin-left: -95px;
-  font-family: SanFrancisco;
+  font-family: Helvetica;
   font-size: 18px; }
 .connect__button, .follow__button {
   display: flex;
@@ -274,7 +274,7 @@ body {
       padding: 0;
       justify-content: center; }
     .header__name {
-      font-size: 4vh;
+      font-size: 5vh;
       text-align: center; }
     .header__speciality {
       font-size: 2vh;
@@ -352,9 +352,7 @@ body {
     width: 5vh;
     height: 5vh; }
 
-  .footer__text {
-    flex-direction: column; }
-    .footer__text > *:last-child {
-      margin-right: 8px; } }
+  .footer__text > *:last-child {
+    margin-right: 8px; } }
 
 /*# sourceMappingURL=main.css.map */

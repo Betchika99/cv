@@ -1,7 +1,7 @@
 $color-orange: #DA8F56;
 $color-black: #333333;
 $font-title: Neucha;
-$font-main: SanFrancisco;
+$font-main: Helvetica;
 
 @font-face {
     font-family: "SanFrancisco";
@@ -484,7 +484,7 @@ body {
         }
     
         &__name {
-            font-size: 4vh;
+            font-size: 5vh;
             text-align: center;
             // position: absolute;
             // top: 10vh;
@@ -618,7 +618,7 @@ body {
 
     .footer {
         &__text {
-            flex-direction: column;
+            // flex-direction: column;
 
             & > *:last-child {
                 margin-right: 8px;
