@@ -621,7 +621,7 @@
     const footer = document.createElement('footer');
     footer.classList = 'footer';
     const textFooter = document.createElement('div');
-    textFooter.textContent = 'Рада познакомиться!';
+    textFooter.textContent = 'Рада познакомиться! © E. Добрянская, 2019';
     textFooter.classList = 'footer__text';
     footer.appendChild(textFooter);
 
