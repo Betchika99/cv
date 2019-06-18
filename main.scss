@@ -457,13 +457,6 @@ body {
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-    // #container {
-    //     height: 100vh;
-    // }
-    html, body, #container {
-        height: 100%;
-    }
-
     .header {
         // flex-direction: column;
         margin: 5vh 20px 8vh 20px;
