@@ -263,23 +263,26 @@ body {
     height: 100%; }
 
   .header {
-    flex-direction: column;
-    margin: 5vh 20px 5px 20px; }
+    margin: 5vh 20px 8vh 20px; }
     .header__photo {
       margin: auto; }
     .header__image {
       width: 20vh;
       height: 20vh; }
     .header__title-block {
-      margin: 10px auto auto auto;
-      padding: 10px; }
+      margin: 0;
+      padding: 0;
+      justify-content: center; }
     .header__name {
       font-size: 4vh;
       text-align: center; }
     .header__speciality {
       font-size: 2vh;
       text-align: center;
-      margin-top: 4px; }
+      position: absolute;
+      padding: 20px;
+      left: 5vw;
+      top: 22vh; }
 
   .hr-header, .hr-footer {
     margin: auto 20px; }
@@ -297,12 +300,12 @@ body {
     .content__text, .content .contact__content, .content .experience__row, .content .education__content, .content__horizontal {
       display: none; }
     .content__title {
-      font-size: 3vh;
+      font-size: 3.5vh;
       margin: auto 16px; }
     .content__visible {
       display: block; }
     .content__header-img {
-      height: 4.5vh;
+      height: 6vh;
       width: 6vh; }
       .content__header-img__visible {
         transform: rotate(90deg); }
@@ -350,6 +353,8 @@ body {
     height: 5vh; }
 
   .footer__text {
-    flex-direction: column; } }
+    flex-direction: column; }
+    .footer__text > *:last-child {
+      margin-right: 8px; } }
 
 /*# sourceMappingURL=main.css.map */
