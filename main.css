@@ -268,8 +268,8 @@ body {
     .header__photo {
       margin: auto; }
     .header__image {
-      width: 12vh;
-      height: 12vh; }
+      width: 20vh;
+      height: 20vh; }
     .header__title-block {
       margin: 10px auto auto auto;
       padding: 10px; }
@@ -297,12 +297,12 @@ body {
     .content__text, .content .contact__content, .content .experience__row, .content .education__content, .content__horizontal {
       display: none; }
     .content__title {
-      font-size: 3.5vh;
+      font-size: 3vh;
       margin: auto 16px; }
     .content__visible {
       display: block; }
     .content__header-img {
-      height: 6vh;
+      height: 4.5vh;
       width: 6vh; }
       .content__header-img__visible {
         transform: rotate(90deg); }
