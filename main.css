@@ -256,6 +256,9 @@ body {
 /* Landscape phones and portrait tablets */
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+  #container {
+    height: 100vh; }
+
   .header {
     flex-direction: column;
     margin: 5vh 20px 5px 20px; }
