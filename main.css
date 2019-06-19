@@ -320,6 +320,8 @@ body {
       width: 6vh; }
       .content__header-img__visible {
         transform: rotate(90deg); }
+    .content__skills .content__title {
+      margin-bottom: 0; }
 
   .contact__connect, .contact__follow {
     padding-left: 50px;

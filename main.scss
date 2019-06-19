@@ -552,6 +552,10 @@ body {
                 transform:rotate(90deg);
             }
         }
+
+        &__skills .content__title {
+            margin-bottom: 0;
+        }
     }
 
     .contact {
