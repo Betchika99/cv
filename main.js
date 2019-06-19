@@ -133,16 +133,19 @@
         {
             icon: 'images/phone.svg',
             orange_icon: 'images/phone_oran.svg',
+            link: 'tel: +79250582816',
             data: '+7 (925) 058 28 16',
         },
         {
             icon: 'images/mailru.svg',
             orange_icon: 'images/mailru_oran.svg',
+            link: 'mailto: dobrl2011@mail.ru',
             data: 'dobrl2011@mail.ru',
         },
         {
             icon: 'images/gmail.svg',
             orange_icon: 'images/gmail_oran.svg',
+            link: 'mailto: emdobryanskaya@gmail.com',
             data: 'emdobryanskaya@gmail.com',
         },
         {
@@ -154,6 +157,7 @@
         {
             icon: 'images/skype.svg',
             orange_icon: 'images/skype_oran.svg',
+            link: 'skype: dobr1501?call',            
             data: 'dobr1501',
         },
     ];
