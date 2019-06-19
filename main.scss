@@ -457,9 +457,25 @@ body {
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html, body {
+        height: 100%;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
     .header {
         // flex-direction: column;
         margin: 5vh 20px 8vh 20px;
+        flex: 0 0 auto;
 
         &__photo {
             margin: auto;
@@ -505,6 +521,7 @@ body {
     .content {
         flex-direction: column;
         margin: 10px 20px;
+        flex: 1 0 auto;
 
         &__left, &__right {
             width: 100%;
@@ -610,6 +627,7 @@ body {
     }
 
     .footer {
+        flex: 0 0 auto;
         &__text {
             // flex-direction: column;
 
