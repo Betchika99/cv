@@ -139,13 +139,13 @@
         {
             icon: 'images/mailru.svg',
             orange_icon: 'images/mailru_oran.svg',
-            link: 'mailto: dobrl2011@mail.ru',
+            link: 'mailto:dobrl2011@mail.ru',
             data: 'dobrl2011@mail.ru',
         },
         {
             icon: 'images/gmail.svg',
             orange_icon: 'images/gmail_oran.svg',
-            link: 'mailto: emdobryanskaya@gmail.com',
+            link: 'mailto:emdobryanskaya@gmail.com',
             data: 'emdobryanskaya@gmail.com',
         },
         {
@@ -425,14 +425,14 @@
         {
             place: 'Технопарк Mail.Ru',
             date: 'Осень 2018 - настоящее время',
-            site: 'http://park.mail.ru',
+            site: 'https://park.mail.ru',
             role: 'СТУДЕНТ ОСНОВНОЙ ПРОГРАММЫ «СИСТЕМНЫЙ АРХИТЕКТОР»',
             annotation: '«Технопарк» — совместный проект МГТУ им. Н.Э. Баумана и Mail.Ru Group, направленный на подготовку квалифицированных специалистов для российского рынка веб-разработки. За год обучения мною были изучены алгоритмы и структуры данных, основы веб-разработки, углубленное программирование на C/C++, базы данных, проектирование интерфейсов, разработка на Goland и Frontend-разработка. В ходе обучения мы на практике изучали технологии разработки путем создания собственных проектов',
         },
         {
             place: 'МГТУ им. Н.Э. Баумана',
             date: '1.09.2016 - настоящее время',
-            site: 'bmstu.ru',
+            site: 'http://www.bmstu.ru/',
             role: 'СТУДЕНТ ОЧНОГО ОТДЕЛЕНИЯ (БАКАЛАВР)',
             annotation: 'При поступлении мой выбор пал на кафедру «Компьютерные системы и сети» (ИУ6). В течение трех лет мною были изучены основы программирования, технологии разработки программных продуктов, сети и телекоммуникации, схемотехника и электроника, проектирование устройств ЭВМ и микропроцессорные системы. Средний балл - 5',
         },
@@ -613,6 +613,24 @@
     skills.appendChild(skillsHeader);
     skills.appendChild(hr);
     skills.appendChild(skillsText);
+
+    skillsHeader.addEventListener('click', (event) => {
+        event.preventDefault();
+        const separator = document.getElementsByClassName('content__horizontal')[4];
+        if (skillsText.style.display == 'block') {
+            skillsText.style.display = 'none';
+            separator.style.display = 'none';
+        } else {
+            skillsText.style.display = 'block';
+            separator.style.display = 'block';
+        }
+
+        if (skillsImg.classList.contains('content__header-img__visible')) {
+            skillsImg.classList.remove('content__header-img__visible');
+        } else {
+            skillsImg.classList.add('content__header-img__visible');
+        }
+    });
     rightColumn.appendChild(skills);
 
     content.appendChild(leftColumn);

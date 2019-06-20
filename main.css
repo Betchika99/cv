@@ -365,6 +365,37 @@ body {
     width: 5vh;
     height: 5vh; }
 
+  .education__header {
+    flex-direction: column; }
+  .education__place {
+    font-size: 24px; }
+  .education__date {
+    margin-top: 4px;
+    font-size: 14px;
+    font-family: Helvetica;
+    color: white; }
+  .education__role {
+    font-size: 16px; }
+  .education__info {
+    display: none; }
+  .education__content {
+    margin-bottom: 10px; }
+
+  .skills__row, .skills__technos {
+    flex-wrap: wrap; }
+  .skills__title {
+    font-size: 16px; }
+  .skills__cell {
+    width: 44%;
+    margin: 4px; }
+  .skills__language {
+    font-size: 14px; }
+  .skills__name {
+    width: 35%;
+    margin: 8px;
+    text-align: center;
+    font-size: 18px; }
+
   .footer {
     flex: 0 0 auto; }
     .footer__text > *:last-child {
