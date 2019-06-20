@@ -157,7 +157,7 @@
         {
             icon: 'images/skype.svg',
             orange_icon: 'images/skype_oran.svg',
-            link: 'skype: dobr1501?call',            
+            link: 'skype: dobr1501?userinfo',            
             data: 'dobr1501',
         },
     ];

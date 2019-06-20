@@ -457,19 +457,23 @@ body {
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
+    // * {
+    //     margin: 0;
+    //     padding: 0;
+    // }
 
     html, body {
         height: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     #container {
         display: flex;
         flex-direction: column;
         height: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .header {
