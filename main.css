@@ -142,6 +142,9 @@ body {
 .cell__img {
   width: 32px;
   height: 32px; }
+.cell__img.img-yandex {
+  width: 50px;
+  height: 50px;}
 .cell__title {
   font-family: Neucha;
   font-size: 28px;
