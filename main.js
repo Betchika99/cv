@@ -64,7 +64,7 @@ const locale = {
     },
 
     expTitle: {
-        en: 'DEVELOPMENT EXPERIENCE',
+        en: 'EXPERIENCE',
         ru: 'ОПЫТ РАЗРАБОТКИ',
     },
     expHistory: {
