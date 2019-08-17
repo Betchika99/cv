@@ -304,9 +304,9 @@ const locale = {
         480
     ];
 
-    const LANG = window.navigator ? (window.navigator.language ||
+    const LANG = (window.navigator ? (window.navigator.language ||
         window.navigator.systemLanguage ||
-        window.navigator.userLanguage) : "ru";
+        window.navigator.userLanguage) : "ru").substr(0, 2).toLowerCase();
 
     const container = document.getElementById('container');
 
