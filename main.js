@@ -114,7 +114,18 @@ const locale = {
         ],
         ru: [
             {
-                name: 'Penguins Wars',
+                name: 'Яндекс (Август 2019 - настоящее время)',
+                role: `Я работаю над <span class="strong">автоматизацией тестирования</span> и <span class="strong">
+                    Continuous Integration</span> в Фронтенд-команде Яндекс.Диска`,
+                annotation: `Яндекс.Диск - это облачное хранилище, которое позволяет своим пользователям
+                    хранить свои данные и файлы в интернете, а также предоставляет синхронный доступ к этим данным
+                    с любых устройст`,
+                technologies: ['JavaScript', 'Python', 'HermioneJS', 'Selenium Grid'],
+                img: 'images/yandex.png',
+                prod: 'https://disk.yandex.ru',
+            },
+            {
+                name: 'Penguins Wars (Февраль - Июнь 2019)',
                 link: 'https://github.com/frontend-park-mail-ru/2019_1_undefined_penguins',
                 role: `Я отвечала в этом проекте, в основном, за <span class="strong">Frontend</span> 
                     и <span class="strong">мониторинг</span>`,
@@ -125,7 +136,7 @@ const locale = {
                 prod: 'https://penguin-wars.sytes.pro',
             },
             {
-                name: 'ГРИП калькулятор',
+                name: 'ГРИП калькулятор (Сентябрь - Декабрь 2018)',
                 link: 'https://github.com/Betchika99/GRIP-calculator',
                 role: `В мои задачи входило <span class="strong">создание математической 
                     библиотеки</span> и настройка <span class="strong">клиент-серверного взаимодействия</span>`,
@@ -136,7 +147,7 @@ const locale = {
                 img: 'images/dof.svg'
             },
             {
-                name: 'Ассистент Публикаций',
+                name: 'Ассистент Публикаций (Июнь 2018 - настоящее время)',
                 role: 'В этом проекте я и члены моей команды были <span class="strong">фуллстеками</span>.',
                 annotation: `Данный программный продукт - <span class="strong">Портал</span> для организации 
                     помощи авторам научных публикаций в МГТУ им. Н.Э. Баумана с переводом и опубликованием 
