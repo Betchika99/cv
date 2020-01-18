@@ -7,7 +7,7 @@ const locale = {
     },
     speciality: {
         en: 'Frontend-developer, engineer and just interesting girl :)',
-        ru: 'Разработчик, инженер и просто интересная девушка :)',
+        ru: 'Frontend-разработчик, инженер и просто интересная девушка :)',
     },
 
     aboutTitle: {
@@ -15,13 +15,13 @@ const locale = {
         ru: 'О СЕБЕ',
     },
     aboutText: {
-        en: `<p>My name is Liza, I'm <span class="strong">20</span> y.o. and I'm from 
+        en: `<p>My name is Liza, I'm <span class="strong">21</span> y.o. and I'm from 
             <span class="strong">Moscow, Russia</span>.</p><p>I'm a student at <span class="strong">
                 Bauman Moscow State Technical University</span>, at the department of informatics and control systems. 
                 </p><p>My hobbies are self-education, volunteering and active lifestyle 
                 (e.g. walking or dancing)</p><p>Creative person :)</p><p>Nowadays I'm seriously  passionate about 
                 <span class="strong">Frontend development</span></p>`,
-        ru: `<p>Меня зовут Лиза, мне <span class="strong">20</span> лет и я из 
+        ru: `<p>Меня зовут Лиза, мне <span class="strong">21</span> год и я из 
             <span class="strong">Москвы</span>.</p><p>Я учусь в <span class="strong">
             МГТУ им. Н.Э. Баумана</span> по специальности «Информатика и вычислительная 
             техника».</p><p>Свободное от учебы время в основном занимаюсь самообразованием, 
@@ -70,7 +70,7 @@ const locale = {
     expHistory: {
         en: [
             {
-                name: 'Yandex (Aug 2019 - nowadays)',
+                name: 'Yandex (Aug 2019 - Jan 2020)',
                 role: `I'm working with <span class="strong">autotests</span> and <span class="strong">
                     Continuous Integration</span> in Frontend team of Yandex.Disk`,
                 annotation: `Yandex.Disk is a cloud service that allows users to store their data on the Internet
@@ -114,7 +114,7 @@ const locale = {
         ],
         ru: [
             {
-                name: 'Яндекс (Август 2019 - настоящее время)',
+                name: 'Яндекс (Август 2019 - Январь 2020)',
                 role: `Я работаю над <span class="strong">автоматизацией тестирования</span> и <span class="strong">
                     Continuous Integration</span> в Фронтенд-команде Яндекс.Диска`,
                 annotation: `Яндекс.Диск - это облачное хранилище, которое позволяет своим пользователям
