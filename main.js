@@ -15,18 +15,18 @@ const locale = {
         ru: 'О СЕБЕ',
     },
     aboutText: {
-        en: `<p>My name is Liza, I'm <span class="strong">21</span> y.o. and I'm from 
+        en: `<p>My name is Liza, I'm <span class="strong">21</span> y.o. and I'm from
             <span class="strong">Moscow, Russia</span>.</p><p>I'm a student at <span class="strong">
-                Bauman Moscow State Technical University</span>, at the department of informatics and control systems. 
-                </p><p>My hobbies are self-education, volunteering and active lifestyle 
-                (e.g. walking or dancing)</p><p>Creative person :)</p><p>Nowadays I'm seriously  passionate about 
+                Bauman Moscow State Technical University</span>, at the department of informatics and control systems.
+                </p><p>My hobbies are self-education, volunteering and active lifestyle
+                (e.g. walking or dancing)</p><p>Creative person :)</p><p>Nowadays I'm seriously  passionate about
                 <span class="strong">Frontend development</span></p>`,
-        ru: `<p>Меня зовут Лиза, мне <span class="strong">21</span> год и я из 
+        ru: `<p>Меня зовут Лиза, мне <span class="strong">21</span> год и я из
             <span class="strong">Москвы</span>.</p><p>Я учусь в <span class="strong">
-            МГТУ им. Н.Э. Баумана</span> по специальности «Информатика и вычислительная 
-            техника».</p><p>Свободное от учебы время в основном занимаюсь самообразованием, 
+            МГТУ им. Н.Э. Баумана</span> по специальности «Информатика и вычислительная
+            техника».</p><p>Свободное от учебы время в основном занимаюсь самообразованием,
             волонтерством или активными занятиями (например, пешими прогулками или танцами)</p>
-            <p>Творческая личность :)</p><p>В последнее время всерьез увлечена изучением 
+            <p>Творческая личность :)</p><p>В последнее время всерьез увлечена изучением
             <span class="strong">Frontend-разработки</span></p>`,
     },
     listTitle: {
@@ -82,7 +82,7 @@ const locale = {
             {
                 name: 'Penguins Wars (Feb - June 2019)',
                 link: 'https://github.com/frontend-park-mail-ru/2019_1_undefined_penguins',
-                role: `My main point in this project was <span class="strong">Frontend side</span> 
+                role: `My main point in this project was <span class="strong">Frontend side</span>
                     and <span class="strong">monitoring</span>`,
                 annotation: `It is a Real-time <span class="strong">game</span>, which
                     main goal is - to stay alive! :)`,
@@ -93,10 +93,10 @@ const locale = {
             {
                 name: 'DOF calculator (Sep - Dec 2018)',
                 link: 'https://github.com/Betchika99/GRIP-calculator',
-                role: `My tasks were <span class="strong">developing math library 
+                role: `My tasks were <span class="strong">developing math library
                     </span> and setting up of<span class="strong">client-server connection</span>`,
-                annotation: `DOF - depth of field. My team created desktop application 
-                    for simulating <span class="strong">photo sharpness/blur</span> 
+                annotation: `DOF - depth of field. My team created desktop application
+                    for simulating <span class="strong">photo sharpness/blur</span>
                     due to camera parametrs`,
                 technologies: ['C/C++', 'MongoDB', 'Libevent', 'Qt', 'Boost', 'Jansson'],
                 img: 'images/dof.svg'
@@ -116,7 +116,7 @@ const locale = {
             {
                 name: 'Яндекс (Август 2019 - Январь 2020)',
                 role: `Стажерская программа Яндекса. В мои задачи входила работа над <span class="strong">
-                    автоматизацией тестирования</span> и <span class="strong">Continuous Integration</span> 
+                    автоматизацией тестирования</span> и <span class="strong">Continuous Integration</span>
                     в Фронтенд-команде Яндекс.Диска`,
                 annotation: `Яндекс.Диск - это облачное хранилище, которое позволяет своим пользователям
                     хранить свои данные и файлы в интернете, а также предоставляет синхронный доступ к этим данным
@@ -128,9 +128,9 @@ const locale = {
             {
                 name: 'Penguins Wars (Февраль - Июнь 2019)',
                 link: 'https://github.com/frontend-park-mail-ru/2019_1_undefined_penguins',
-                role: `Я отвечала в этом проекте, в основном, за <span class="strong">Frontend</span> 
+                role: `Я отвечала в этом проекте, в основном, за <span class="strong">Frontend</span>
                     и <span class="strong">мониторинг</span>`,
-                annotation: `Это настоящая Real-time <span class="strong">игра</span>, в 
+                annotation: `Это настоящая Real-time <span class="strong">игра</span>, в
                     которой главная задача - выжить :)`,
                 technologies: ['JavaScript', 'Golang', 'PostgreSQL', 'Node.js', 'Grafana'],
                 img: 'images/penguin3.svg',
@@ -139,10 +139,10 @@ const locale = {
             {
                 name: 'ГРИП калькулятор (Сентябрь - Декабрь 2018)',
                 link: 'https://github.com/Betchika99/GRIP-calculator',
-                role: `В мои задачи входило <span class="strong">создание математической 
+                role: `В мои задачи входило <span class="strong">создание математической
                     библиотеки</span> и настройка <span class="strong">клиент-серверного взаимодействия</span>`,
-                annotation: `ГРИП - глубина резко изображаемого пространства. Было разработано десктопное 
-                    приложение для моделирования <span class="strong">резкости/размытости фотографии</span> 
+                annotation: `ГРИП - глубина резко изображаемого пространства. Было разработано десктопное
+                    приложение для моделирования <span class="strong">резкости/размытости фотографии</span>
                     в зависимости от параметров фотокамеры`,
                 technologies: ['C/C++', 'MongoDB', 'Libevent', 'Qt', 'Boost', 'Jansson'],
                 img: 'images/dof.svg'
@@ -150,9 +150,9 @@ const locale = {
             {
                 name: 'Ассистент Публикаций (Июнь 2018 - настоящее время)',
                 role: 'В этом проекте я и члены моей команды были <span class="strong">фуллстеками</span>.',
-                annotation: `Данный программный продукт - <span class="strong">Портал</span> для организации 
-                    помощи авторам научных публикаций в МГТУ им. Н.Э. Баумана с переводом и опубликованием 
-                    в международных журналах. Проект живет и спустя некоторое время вышел в релиз и активно 
+                annotation: `Данный программный продукт - <span class="strong">Портал</span> для организации
+                    помощи авторам научных публикаций в МГТУ им. Н.Э. Баумана с переводом и опубликованием
+                    в международных журналах. Проект живет и спустя некоторое время вышел в релиз и активно
                     используется внутри МГТУ.`,
                 technologies: ['Ruby', 'Rails', 'PostgreSQL', 'ActiveStorage', 'jQuery'],
                 img: 'images/pubAssist.svg',
@@ -180,11 +180,11 @@ const locale = {
                 date: 'Autumn 2018 - nowadays',
                 site: 'https://park.mail.ru',
                 role: `SYSTEM ARCHITECT`,
-                annotation: `Techopark is cooperative project of BMSTU and Mail.Ru Group, 
+                annotation: `Techopark is cooperative project of BMSTU and Mail.Ru Group,
                     which has a goal to prepare professionals in Web-development. I have studied
-                    for one year and already studied algorithms and data structures, Web-development 
-                    bases, C/C++ development, databases, UI/UX design, Goland development and 
-                    Frontend-development. During this studing I improved my knowlege in 
+                    for one year and already studied algorithms and data structures, Web-development
+                    bases, C/C++ development, databases, UI/UX design, Goland development and
+                    Frontend-development. During this studing I improved my knowlege in
                     development by creating own projects`,
             },
             {
@@ -192,9 +192,9 @@ const locale = {
                 date: '1.09.2016 - nowadays',
                 site: 'http://www.bmstu.ru/',
                 role: 'FULLTIME STUDENT (BACHELOR)',
-                annotation: `I chose Computer Systems, Complexes and Networks sub-department to get 
-                    fundamental education in Computer Science. During three years I studied 
-                    programming basics, development technologies of programm systems, networks, 
+                annotation: `I chose Computer Systems, Complexes and Networks sub-department to get
+                    fundamental education in Computer Science. During three years I studied
+                    programming basics, development technologies of programm systems, networks,
                     circuitry and electronics, computer design and microprocessor systems. GPA: 5`,
             },
             {
@@ -338,7 +338,7 @@ const locale = {
     const name = document.createElement('div');
     name.classList = 'header__name';
     name.textContent = locale.title[LANG].toUpperCase();
-    
+
     const speciality = document.createElement('div');
     speciality.classList = 'header__speciality';
     speciality.textContent = locale.speciality[LANG];
@@ -396,13 +396,13 @@ const locale = {
             } else {
                 aboutText.classList.add('content__visible');
             }
-    
+
             if (aboutImg.classList.contains('content__header-img__visible')) {
                 aboutImg.classList.remove('content__header-img__visible');
             } else {
                 aboutImg.classList.add('content__header-img__visible');
             }
-    
+
             const separator = document.getElementsByClassName('content__horizontal')[0];
             if (separator.classList.contains('content__visible')) {
                 separator.classList.remove('content__visible');
@@ -467,7 +467,7 @@ const locale = {
         {
             icon: 'images/skype.svg',
             orange_icon: 'images/skype_oran.svg',
-            link: 'skype: dobr1501?userinfo',            
+            link: 'skype: dobr1501?userinfo',
             data: 'dobr1501',
         },
     ];
@@ -481,7 +481,7 @@ const locale = {
         liBorder.classList = 'connect__border';
         const liImg = document.createElement('img');
         liImg.classList = 'connect__img';
-        liImg.src = elem.icon;        
+        liImg.src = elem.icon;
         const data = document.createElement('div');
         data.classList = 'connect__link';
         data.textContent = elem.data;
@@ -516,7 +516,7 @@ const locale = {
         {
             icon: 'images/github.svg',
             orange_icon: 'images/github_oran.svg',
-            link: 'https://github.com/Betchika99',
+            link: 'https://betchika99.github.io/',
             data: 'Betchika99',
         },
         {
@@ -540,7 +540,7 @@ const locale = {
         liBorder.classList = 'follow__border';
         const liImg = document.createElement('img');
         liImg.classList = 'follow__img';
-        liImg.src = elem.icon;        
+        liImg.src = elem.icon;
         const data = document.createElement('div');
         data.classList = 'follow__link';
         data.textContent = elem.data;
