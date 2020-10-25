@@ -22,9 +22,10 @@ const locale = {
                 (e.g. walking or dancing)</p><p>Creative person :)</p><p>Nowadays I'm seriously  passionate about
                 <span class="strong">Frontend development</span></p>`,
         ru: `<p>Меня зовут Лиза, мне <span class="strong">21</span> год и я из
-            <span class="strong">Москвы</span>.</p><p>Я учусь в <span class="strong">
+            <span class="strong">Москвы</span>.</p><p>Я окончила <span class="strong">
             МГТУ им. Н.Э. Баумана</span> по специальности «Информатика и вычислительная
-            техника».</p><p>Свободное от учебы время в основном занимаюсь самообразованием,
+            техника» с красным дипломом (бакалавр) и сейчас <span class="strong">продолжаю обучение</span> 
+            на степень магистра.</p><p>Свободное от учебы время в основном занимаюсь самообразованием,
             волонтерством или активными занятиями (например, пешими прогулками или танцами)</p>
             <p>Творческая личность :)</p><p>В последнее время всерьез увлечена изучением
             <span class="strong">Frontend-разработки</span></p><p><span class="strong">Ментор</span> по фронтенду в 
