@@ -27,7 +27,9 @@ const locale = {
             техника».</p><p>Свободное от учебы время в основном занимаюсь самообразованием,
             волонтерством или активными занятиями (например, пешими прогулками или танцами)</p>
             <p>Творческая личность :)</p><p>В последнее время всерьез увлечена изучением
-            <span class="strong">Frontend-разработки</span></p>`,
+            <span class="strong">Frontend-разработки</span></p><p><span class="strong">Ментор</span> по фронтенду в 
+            Технопарк Mail.ru</p><p>Веду <span class="strong">свой канал в Telegram</span> для начинающих 
+            фронтендеров и мой путь в этом мире:)</p>`,
     },
     listTitle: {
         en: 'Personal qualities:',
@@ -70,8 +72,29 @@ const locale = {
     expHistory: {
         en: [
             {
+                name: 'Real estate center from Sber - DomClick (Mar 2020 - nowadays)',
+                role: `My job includes developing some <span class="strong">widgets and sites</span> provided 
+                       Sber manager and clients communication. <span class="strong">
+                    </span> in Frontend team of Yandex.Disk`,
+                annotation: `Yandex.Disk is a cloud service that allows users to store their data on the Internet
+                    and give a synchronous access to all recources from all devices`,
+                technologies: ['JavaScript', 'Python', 'HermioneJS', 'Selenium Grid'],
+                img: 'images/yandex.png',
+                prod: 'https://disk.yandex.ru',
+            },
+            {
                 name: 'Yandex (Aug 2019 - Jan 2020)',
                 role: `I'm working with <span class="strong">autotests</span> and <span class="strong">
+                    Continuous Integration</span> in Frontend team of Yandex.Disk`,
+                annotation: `Yandex.Disk is a cloud service that allows users to store their data on the Internet
+                    and give a synchronous access to all recources from all devices`,
+                technologies: ['JavaScript', 'Python', 'HermioneJS', 'Selenium Grid'],
+                img: 'images/yandex.png',
+                prod: 'https://disk.yandex.ru',
+            },
+            {
+                name: 'Yandex (Aug 2019 - Jan 2020)',
+                role: `I was working with <span class="strong">autotests</span> and <span class="strong">
                     Continuous Integration</span> in Frontend team of Yandex.Disk`,
                 annotation: `Yandex.Disk is a cloud service that allows users to store their data on the Internet
                     and give a synchronous access to all recources from all devices`,
@@ -114,13 +137,41 @@ const locale = {
         ],
         ru: [
             {
+                name: 'Центр недвижимости от Cбербанка (Март 2020 - настоящее время)',
+                role: `Я - фронтенд-разработчик в команде коммуникаций с клиентом. В задачи нашей команды входит обеспечение 
+                    стабильной и качественной работы <span class="strong">чата, колокольчика, пуш-уведомлений, системы 
+                    с идеями и пожеланиями пользователей и пр.</span> Мы отвечаем за техническую составляющую <span class="strong">
+                    каналов связи клиента и компании </span>`,
+                annotation: `ДомКлик - это IT-платформа по подбору недвижимости и оформлению сделки через Сбер. Здесь на каждом шагу 
+                возникают коммуникации с клиентом - чат с менеджером, телефонный звонок, пуш-уведомления на устройство или почту,
+                опросы, идеи и предложения, помогающие сделать жизнь клиентов Сбера лучше`,
+                technologies: ['JavaScript', 'TypeScript', 'React', 'Mobx', 'Effector', 'WebSocket', 'SCSS'],
+                img: 'images/domclick.png',
+                prod: 'https://domclick.ru',
+            },
+            {
+                name: 'Give me a Donut (Февраль 2020 - Сентябрь 2020)',
+                link: 'https://github.com/BADgers-Team/donut-front',
+                role: `В этом проекте я занималась <span class="strong">клиентской составляющей сайта с нуля, ее развитием и совершенствованием.</span> 
+                    Кроме того, в этом проекте я была <span class="strong">Product-менеджером</span> и отвечала за основные продуктовые решения
+                    команды`,
+                annotation: `Give me a Donut - это сервис поддержки талантов. Cервис помогает творческим личностям 
+                поделиться своими работами с публикой, найти свою аудиторию и зарабатывать тем, что действительно нравится. 
+                В системе есть своя "вкусная" валюта - донат. Поэтому мы как никто знаем, что творить и зарабатывать - это весело!
+                <br/>P.S. Продукт сделан в качестве выпускного защитного проекта студентов Технопарка Mail.ru и признан
+                лучшим проектом семестра по мнению преподавателей`,
+                technologies: ['JavaScript', 'React', 'Mobx', 'Go', 'PostgreSQL', 'Tarantool', 'S3'],
+                img: 'images/donut.png',
+                prod: 'https://givemeadonut.ru',
+            },
+            {
                 name: 'Яндекс (Август 2019 - Январь 2020)',
                 role: `Стажерская программа Яндекса. В мои задачи входила работа над <span class="strong">
                     автоматизацией тестирования</span> и <span class="strong">Continuous Integration</span>
                     в Фронтенд-команде Яндекс.Диска`,
                 annotation: `Яндекс.Диск - это облачное хранилище, которое позволяет своим пользователям
                     хранить свои данные и файлы в интернете, а также предоставляет синхронный доступ к этим данным
-                    с любых устройст`,
+                    с любых устройств`,
                 technologies: ['JavaScript', 'Python', 'HermioneJS', 'Selenium Grid'],
                 img: 'images/yandex.png',
                 prod: 'https://disk.yandex.ru',
@@ -206,18 +257,25 @@ const locale = {
         ],
         ru: [
             {
+                place: 'МГТУ им. Н.Э. Баумана',
+                date: '1.09.2020 - настоящее время',
+                site: 'http://www.bmstu.ru/',
+                role: 'СТУДЕНТ ОЧНОГО ОТДЕЛЕНИЯ (МАГИСТР)',
+                annotation: 'После окончания бакалавриата решила продолжить обучение и изучать Компьютерные комплексы и большие данные (кафедра ИУ6)',
+            },
+            {
                 place: 'Технопарк Mail.Ru',
-                date: 'Осень 2018 - настоящее время',
+                date: 'Осень 2018 - Сентябрь 2020',
                 site: 'https://park.mail.ru',
                 role: 'СТУДЕНТ ОСНОВНОЙ ПРОГРАММЫ «СИСТЕМНЫЙ АРХИТЕКТОР»',
                 annotation: '«Технопарк» — совместный проект МГТУ им. Н.Э. Баумана и Mail.Ru Group, направленный на подготовку квалифицированных специалистов для российского рынка веб-разработки. За год обучения мною были изучены алгоритмы и структуры данных, основы веб-разработки, углубленное программирование на C/C++, базы данных, проектирование интерфейсов, разработка на Goland и Frontend-разработка. В ходе обучения мы на практике изучали технологии разработки путем создания собственных проектов',
             },
             {
                 place: 'МГТУ им. Н.Э. Баумана',
-                date: '1.09.2016 - настоящее время',
+                date: '1.09.2016 - 31.08.2020',
                 site: 'http://www.bmstu.ru/',
                 role: 'СТУДЕНТ ОЧНОГО ОТДЕЛЕНИЯ (БАКАЛАВР)',
-                annotation: 'При поступлении мой выбор пал на кафедру «Компьютерные системы и сети» (ИУ6). В течение трех лет мною были изучены основы программирования, технологии разработки программных продуктов, сети и телекоммуникации, схемотехника и электроника, проектирование устройств ЭВМ и микропроцессорные системы. Средний балл - 5',
+                annotation: 'При поступлении мой выбор пал на кафедру «Компьютерные системы и сети» (ИУ6). В течение трех лет мною были изучены основы программирования, технологии разработки программных продуктов, сети и телекоммуникации, схемотехника и электроника, проектирование устройств ЭВМ и микропроцессорные системы. Окончила с красным дипломом. Средний балл - 5',
             },
             {
                 place: 'МОУ СОШ №24 г. Павловский Посад',
@@ -245,7 +303,8 @@ const locale = {
     skillsHistory: {
         en: {
             'PROGRAMMING LANGUAGES': [
-                { name: 'JavaScript', progress: 75, },
+                { name: 'JavaScript', progress: 85, },
+                { name: 'TypeScript', progress: 70, },
                 { name: 'HTML', progress: 80, },
                 { name: 'CSS', progress: 70, },
                 { name: 'C/C++', progress: 60, },
@@ -260,18 +319,20 @@ const locale = {
             ],
             'LANGUANGES': [
                 { name: 'Russian', progress: 100, },
-                { name: 'English', progress: 80, },
+                { name: 'English', progress: 75, },
                 { name: 'Spanish', progress: 30, },
             ],
             'OTHER': [
-                { name: 'Sketch', progress: 70, },
+                { name: 'Figma', progress: 80, },
+                { name: 'Sketch', progress: 60, },
                 { name: 'Adobe Lightroom', progress: 60, },
                 { name: 'Vim', progress: 60, },
             ],
         },
         ru: {
             'ЯЗЫКИ ПРОГРАММИРОВАНИЯ': [
-                { name: 'JavaScript', progress: 75, },
+                { name: 'JavaScript', progress: 85, },
+                { name: 'TypeScript', progress: 70, },
                 { name: 'HTML', progress: 80, },
                 { name: 'CSS', progress: 70, },
                 { name: 'C/C++', progress: 60, },
@@ -286,11 +347,13 @@ const locale = {
             ],
             'ЯЗЫКОВЫЕ НАВЫКИ': [
                 { name: 'Русский язык', progress: 100, },
-                { name: 'Английский язык', progress: 80, },
+                { name: 'Английский язык', progress: 75, },
                 { name: 'Испанский язык', progress: 30, },
             ],
             'ДРУГИЕ УМЕНИЯ': [
-                { name: 'Sketch', progress: 70, },
+                { name: 'Figma', progress: 80, },
+                { name: 'MS Visio / Draw.io', progress: 70},
+                { name: 'Sketch', progress: 60, },
                 { name: 'Adobe Lightroom', progress: 60, },
                 { name: 'Vim', progress: 60, },
             ],
@@ -820,15 +883,15 @@ const locale = {
     skillsCell.appendChild(skillsTitle2);
 
     const techologies = [
+        { name: 'React', progress: 80, },
+        { name: 'Mobx', progress: 70 },
+        { name: 'Effector', progress: 65 },
+        { name: 'Node.js', progress: 70, },
+        { name: 'SASS', progress: 85, },
+        { name: 'Webpack', progress: 70, },
         { name: 'Git', progress: 85, },
-        { name: 'Node.js', progress: 80, },
-        { name: 'SASS', progress: 65, },
-        { name: 'React', progress: 30, },
-        { name: 'Webpack', progress: 60, },
-        { name: 'Grafana', progress: 50, },
         { name: 'PostgreSQL', progress: 80, },
         { name: 'Ruby on Rails', progress: 75, },
-        { name: 'Qt', progress: 70, },
     ];
     const skillsTechnos = document.createElement('div');
     skillsTechnos.classList = 'skills__technos';
