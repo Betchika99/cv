@@ -7,7 +7,7 @@ const locale = {
     },
     speciality: {
         en: 'Frontend-developer, engineer and just interesting girl :)',
-        ru: 'Frontend-разработчик, инженер и просто интересная девушка :)',
+        ru: 'Frontend-разработчик, QA-инженер и просто интересная девушка :)',
     },
 
     aboutTitle: {
@@ -21,16 +21,23 @@ const locale = {
                 </p><p>My hobbies are self-education, volunteering and active lifestyle
                 (e.g. walking or dancing)</p><p>Creative person :)</p><p>Nowadays I'm seriously  passionate about
                 <span class="strong">Frontend development</span></p>`,
-        ru: `<p>Меня зовут Лиза, мне <span class="strong">21</span> год и я из
+        ru: `<p>Меня зовут Лиза, мне <span class="strong">22</span> года и я из
             <span class="strong">Москвы</span>.</p><p>Я окончила <span class="strong">
             МГТУ им. Н.Э. Баумана</span> по специальности «Информатика и вычислительная
-            техника» с красным дипломом (бакалавр) и сейчас <span class="strong">продолжаю обучение</span> 
-            на степень магистра.</p><p>Свободное от учебы время в основном занимаюсь самообразованием,
-            волонтерством или активными занятиями (например, пешими прогулками или танцами)</p>
-            <p>Творческая личность :)</p><p>В последнее время всерьез увлечена изучением
-            <span class="strong">Frontend-разработки</span></p><p><span class="strong">Ментор</span> по фронтенду в 
-            Технопарк Mail.ru</p><p>Веду <span class="strong">свой канал в Telegram</span> для начинающих 
-            фронтендеров и мой путь в этом мире:)</p>`,
+            техника» с красным дипломом (бакалавр, выпуск 2020) и сейчас <span class="strong">продолжаю обучение</span> 
+            на степень магистра (выпуск 2022).</p><p>В последнее время всерьез увлечена изучением
+            <span class="strong">Frontend-разработки</span>.</p>
+            <p>
+                <span class="strong">Старший ментор</span> по фронтенду в 
+                Технопарк Mail.ru. До этого 1.5 года была ментором.
+            </p>
+            <p>
+                <span class="strong">Ментор</span> по QA в 
+                Технопарк Mail.ru.
+            </p>
+            <p>Начинающий автор статей на <span class="strong">Habr</span>.</p>
+            <p>Волонтер на конференции <span class="strong">Holy.js</span> (2020).</p>
+            <p>Веду <span class="strong">свой канал в Telegram</span> "Делаем веб" для начинающих фронтендеров.</p>`,
     },
     listTitle: {
         en: 'Personal qualities:',
@@ -138,15 +145,21 @@ const locale = {
         ],
         ru: [
             {
-                name: 'Центр недвижимости от Cбербанка (Март 2020 - настоящее время)',
-                role: `Я - фронтенд-разработчик в команде коммуникаций с клиентом. В задачи нашей команды входит обеспечение 
+                name: 'Центр недвижимости от Cбера (Март 2020 - настоящее время)',
+                role: `Я занимаюсь разработкой фронтенда в команде коммуникаций с клиентом. В задачи нашей команды входит обеспечение 
                     стабильной и качественной работы <span class="strong">чата, колокольчика, пуш-уведомлений, системы 
                     с идеями и пожеланиями пользователей и пр.</span> Мы отвечаем за техническую составляющую <span class="strong">
-                    каналов связи клиента и компании </span>`,
-                annotation: `ДомКлик - это IT-платформа по подбору недвижимости и оформлению сделки через Сбер. Здесь на каждом шагу 
+                    каналов связи клиента и компании </span>. За время работы участвовала в разработке  <span class="strong">виджетов</span>, 
+                    страниц  <span class="strong">SPA/SSR/SSG</span>, 
+                    а также занималась  <span class="strong">оптимизациями</span> legacy-проектов, организацией собственной 
+                    <span class="strong">библиотеки компонентов</span>, 
+                    первыми в компании внедрили стейт-менеджер <span class="strong">Effector</span>. 
+                    Изучала работу ClickHouse, Lighthouse, Grafana для аналитики 
+                    и настройке алертов`,
+                annotation: `Домклик - это IT-платформа по подбору недвижимости и оформлению сделки через Сбер. Здесь на каждом шагу 
                 возникают коммуникации с клиентом - чат с менеджером, телефонный звонок, пуш-уведомления на устройство или почту,
                 опросы, идеи и предложения, помогающие сделать жизнь клиентов Сбера лучше`,
-                technologies: ['JavaScript', 'TypeScript', 'React', 'Mobx', 'Effector', 'WebSocket', 'SCSS'],
+                technologies: ['TypeScript', 'React', 'Mobx', 'Effector', 'WebSocket', 'SCSS', 'Next.js', 'Grafana', 'Clickhouse'],
                 img: 'images/domclick.png',
                 prod: 'https://domclick.ru',
             },
@@ -186,27 +199,17 @@ const locale = {
                     которой главная задача - выжить :)`,
                 technologies: ['JavaScript', 'Golang', 'PostgreSQL', 'Node.js', 'Grafana'],
                 img: 'images/penguin3.svg',
-                prod: 'https://penguin-wars.sytes.pro',
+                prod: '',
             },
             {
-                name: 'ГРИП калькулятор (Сентябрь - Декабрь 2018)',
-                link: 'https://github.com/Betchika99/GRIP-calculator',
-                role: `В мои задачи входило <span class="strong">создание математической
-                    библиотеки</span> и настройка <span class="strong">клиент-серверного взаимодействия</span>`,
-                annotation: `ГРИП - глубина резко изображаемого пространства. Было разработано десктопное
-                    приложение для моделирования <span class="strong">резкости/размытости фотографии</span>
-                    в зависимости от параметров фотокамеры`,
-                technologies: ['C/C++', 'MongoDB', 'Libevent', 'Qt', 'Boost', 'Jansson'],
-                img: 'images/dof.svg'
-            },
-            {
-                name: 'Ассистент Публикаций (Июнь 2018 - настоящее время)',
-                role: 'В этом проекте я и члены моей команды были <span class="strong">фуллстеками</span>.',
+                name: 'Ассистент Публикаций (Июнь 2018 - Июль 2021)',
+                role: 'В этом проекте я и члены моей команды были <span class="strong">фуллстеками</span>. Во второй версии я была <span class="strong">фронтендером</span>.',
                 annotation: `Данный программный продукт - <span class="strong">Портал</span> для организации
                     помощи авторам научных публикаций в МГТУ им. Н.Э. Баумана с переводом и опубликованием
                     в международных журналах. Проект живет и спустя некоторое время вышел в релиз и активно
-                    используется внутри МГТУ.`,
-                technologies: ['Ruby', 'Rails', 'PostgreSQL', 'ActiveStorage', 'jQuery'],
+                    используется внутри МГТУ. В 2020 году проект был <span class="strong">переписан на новый стек технологий</span>
+                    с разделением Frontend (JavaScript) и Backend (Go, Postgres, Tarantool)`,
+                technologies: ['Ruby', 'Rails', 'PostgreSQL', 'ActiveStorage', 'jQuery', 'JavaScript', 'Go'],
                 img: 'images/pubAssist.svg',
                 prod: 'http://assistent.bmstu.ru/',
             },
@@ -218,7 +221,7 @@ const locale = {
     },
     linkGood: {
         en: 'Link to ->',
-        ru: 'Посмотреть ->',
+        ru: 'Посмотреть код ->',
     },
     linkBad: {
         en: 'The code is not available :(',
@@ -266,6 +269,13 @@ const locale = {
             },
             {
                 place: 'Технопарк Mail.Ru',
+                date: 'Весна 2021',
+                site: 'https://education.mail.ru/curriculum/program/discipline/1240/',
+                role: 'ВЫПУСКНИК КУРСА "РУЧНОЕ ТЕСТИРОВАНИЕ"',
+                annotation: '«Технопарк» — совместный проект МГТУ им. Н.Э. Баумана и Mail.Ru Group, направленный на подготовку квалифицированных специалистов для российского рынка веб-разработки. За год обучения мною были изучены алгоритмы и структуры данных, основы веб-разработки, углубленное программирование на C/C++, базы данных, проектирование интерфейсов, разработка на Goland и Frontend-разработка. В ходе обучения мы на практике изучали технологии разработки путем создания собственных проектов',
+            },
+            {
+                place: 'Технопарк Mail.Ru',
                 date: 'Осень 2018 - Сентябрь 2020',
                 site: 'https://park.mail.ru',
                 role: 'СТУДЕНТ ОСНОВНОЙ ПРОГРАММЫ «СИСТЕМНЫЙ АРХИТЕКТОР»',
@@ -278,18 +288,18 @@ const locale = {
                 role: 'СТУДЕНТ ОЧНОГО ОТДЕЛЕНИЯ (БАКАЛАВР)',
                 annotation: 'При поступлении мой выбор пал на кафедру «Компьютерные системы и сети» (ИУ6). В течение трех лет мною были изучены основы программирования, технологии разработки программных продуктов, сети и телекоммуникации, схемотехника и электроника, проектирование устройств ЭВМ и микропроцессорные системы. Окончила с красным дипломом. Средний балл - 5',
             },
-            {
-                place: 'МОУ СОШ №24 г. Павловский Посад',
-                date: '2005 - 2016 гг.',
-                role: 'ВЫПУСКНИЦА ШКОЛЫ',
-                annotation: 'Окончила школу с медалью "За отличные успехи в учебе"',
-            },
-            {
-                place: 'МГИМО',
-                date: '2013 - 2014 гг.',
-                role: 'СТУДЕНТ КУРСОВ',
-                annotation: 'Окончила курсы повышения уровня иностранного (английского) языка до уровня Intermediate',
-            },
+            // {
+            //     place: 'МОУ СОШ №24 г. Павловский Посад',
+            //     date: '2005 - 2016 гг.',
+            //     role: 'ВЫПУСКНИЦА ШКОЛЫ',
+            //     annotation: 'Окончила школу с медалью "За отличные успехи в учебе"',
+            // },
+            // {
+            //     place: 'МГИМО',
+            //     date: '2013 - 2014 гг.',
+            //     role: 'СТУДЕНТ КУРСОВ',
+            //     annotation: 'Окончила курсы повышения уровня иностранного (английского) языка до уровня Intermediate',
+            // },
         ],
     },
     educTitle: {
@@ -304,13 +314,14 @@ const locale = {
     skillsHistory: {
         en: {
             'PROGRAMMING LANGUAGES': [
-                { name: 'JavaScript', progress: 85, },
-                { name: 'TypeScript', progress: 70, },
+                { name: 'JavaScript', progress: 90, },
+                { name: 'TypeScript', progress: 80, },
+                { name: 'React', progress: 80, },
                 { name: 'HTML', progress: 80, },
                 { name: 'CSS', progress: 70, },
-                { name: 'C/C++', progress: 60, },
-                { name: 'Ruby', progress: 60, },
-                { name: 'Swift', progress: 40, },
+                { name: 'C/C++', progress: 30, },
+                { name: 'Ruby', progress: 30, },
+                { name: 'Swift', progress: 30, },
                 { name: 'Golang', progress: 40, },
             ],
             'OPERATING SYSTEMS': [
@@ -332,14 +343,15 @@ const locale = {
         },
         ru: {
             'ЯЗЫКИ ПРОГРАММИРОВАНИЯ': [
-                { name: 'JavaScript', progress: 85, },
-                { name: 'TypeScript', progress: 70, },
+                { name: 'JavaScript', progress: 90, },
+                { name: 'TypeScript', progress: 80, },
+                { name: 'React', progress: 80, },
                 { name: 'HTML', progress: 80, },
                 { name: 'CSS', progress: 70, },
-                { name: 'C/C++', progress: 60, },
-                { name: 'Ruby', progress: 60, },
-                { name: 'Swift', progress: 40, },
-                { name: 'Golang', progress: 40, },
+                { name: 'Mobx', progress: 65, },
+                { name: 'Effector', progress: 50, },
+                { name: 'Jest/Selenium', progress: 50, },
+                { name: 'Next.js', progress: 50, },
             ],
             'ОПЕРАЦИОННЫЕ СИСТЕМЫ': [
                 { name: 'MacOS', progress: 90, },
@@ -349,20 +361,22 @@ const locale = {
             'ЯЗЫКОВЫЕ НАВЫКИ': [
                 { name: 'Русский язык', progress: 100, },
                 { name: 'Английский язык', progress: 75, },
-                { name: 'Испанский язык', progress: 30, },
             ],
             'ДРУГИЕ УМЕНИЯ': [
                 { name: 'Figma', progress: 80, },
                 { name: 'MS Visio / Draw.io', progress: 70},
-                { name: 'Sketch', progress: 60, },
-                { name: 'Adobe Lightroom', progress: 60, },
-                { name: 'Vim', progress: 60, },
+                { name: 'Figma', progress: 70, },
+                { name: 'Elasticsearch', progress: 65, },
+                { name: 'Lightroom/Photoshop', progress: 40, },
+                { name: 'Hadoop', progress: 30, },
+                { name: 'Kibana', progress: 30, },
+                { name: 'Python/Go', progress: 30, },
             ],
         },
     },
     skillsTitle2: {
         en: 'FRAMEWORKS AND TECHNOLOGIES',
-        ru: 'ФРЕЙМВОРКИ И ТЕХНОЛОГИИ',
+        ru: 'ОСНОВНЫЕ ФРЕЙМВОРКИ И ТЕХНОЛОГИИ',
     },
 
     footerMsg: {
@@ -370,8 +384,8 @@ const locale = {
         ru: 'Рада познакомиться!',
     },
     footerCpr: {
-        en: '© E. Dobryanskaya, 2019',
-        ru: '© E. Добрянская, 2019',
+        en: '© E. Dobryanskaya, 2021',
+        ru: '© E. Добрянская, 2021',
     },
 };
 
@@ -525,14 +539,8 @@ const locale = {
         {
             icon: 'images/tg.svg',
             orange_icon: 'images/tg_oran.svg',
-            link: 'https://t.me/Betchika99',
-            data: 'Betchika99',
-        },
-        {
-            icon: 'images/skype.svg',
-            orange_icon: 'images/skype_oran.svg',
-            link: 'skype: dobr1501?userinfo',
-            data: 'dobr1501',
+            link: 'https://t.me/emdobryanskaya',
+            data: 'emdobryanskaya',
         },
     ];
     buttonsList.forEach(elem => {
@@ -584,16 +592,28 @@ const locale = {
             data: 'Betchika99',
         },
         {
+            icon: 'images/tg.svg',
+            orange_icon: 'images/tg_oran.svg',
+            link: 'https://t.me/makingweb',
+            data: 'Делаем веб',
+        },
+        {
+            icon: 'images/habr.svg',
+            orange_icon: 'images/habr_oran.svg',
+            link: 'https://habr.com/ru/users/emdobro/',
+            data: 'habr.com',
+        },
+        {
             icon: 'images/vk.svg',
             orange_icon: 'images/vk_oran.svg',
-            link: 'https://vk.com/betchika99',
-            data: 'betchika99',
+            link: 'https://vk.com/emdobryanskaya',
+            data: 'emdobryanskaya',
         },
         {
             icon: 'images/instagram.svg',
             orange_icon: 'images/instagram_oran.svg',
-            link: 'https://www.instagram.com/betchika99/?hl=ru',
-            data: 'betchika99',
+            link: 'https://www.instagram.com/emdobryanskaya/?hl=ru',
+            data: 'emdobryanskaya',
         },
     ];
     buttonsList.forEach(elem => {
@@ -892,7 +912,6 @@ const locale = {
         { name: 'Webpack', progress: 70, },
         { name: 'Git', progress: 85, },
         { name: 'PostgreSQL', progress: 80, },
-        { name: 'Ruby on Rails', progress: 75, },
     ];
     const skillsTechnos = document.createElement('div');
     skillsTechnos.classList = 'skills__technos';
