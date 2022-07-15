@@ -182,7 +182,8 @@ body {
   color: #DA8F56; }
 .education__site {
   font-size: 16px;
-  color: white; }
+  color: white;
+  word-break: break-word; }
 .education__role {
   margin-top: 16px;
   font-size: 20px; }
@@ -280,8 +281,8 @@ body {
     .header__photo {
       margin: auto; }
     .header__image {
-      width: 20vh;
-      height: 20vh; }
+      width: 16vh;
+      height: 16vh; }
     .header__title-block {
       margin: 0;
       padding: 0;
@@ -295,7 +296,7 @@ body {
       position: absolute;
       padding: 20px;
       left: 5vw;
-      top: 22vh; }
+      top: 20vh; }
 
   .hr-header, .hr-footer {
     margin: auto 20px; }

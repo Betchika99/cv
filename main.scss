@@ -273,6 +273,7 @@ body {
     &__site {
         font-size: 16px;
         color: white;
+        word-break: break-word;
     }
 
     &__role {
@@ -491,8 +492,8 @@ body {
         }
 
         &__image {
-            width: 20vh;
-            height: 20vh;
+            width: 16vh;
+            height: 16vh;
         }
     
         &__title-block {
@@ -515,7 +516,7 @@ body {
             position: absolute;
             padding: 20px;
             left: 5vw;
-            top: 22vh;
+            top: 20vh;
         }
     }
 
@@ -634,8 +635,8 @@ body {
         }
 
         &_img {
-            width: 5vh;
-            height: 5vh;
+            width: 40px;
+            height: 40px;
         }
     }
 
